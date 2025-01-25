@@ -29,9 +29,10 @@ const HomePage = () => {
         </section>
 
         <section>
-            <button className="cta-button">Get More Specific Suggestions</button>
+            <a href='user_input.jsx'>
+                <button className="cta-button">Get More Specific Suggestions</button>
+            </a> 
         </section>
-        
       </main>
     </div>
   );

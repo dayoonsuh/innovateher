@@ -1,0 +1,1 @@
+start_date,end_date,num_days,curr_location,theme,with_who
