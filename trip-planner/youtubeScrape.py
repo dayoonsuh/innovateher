@@ -1,13 +1,24 @@
 import requests
 
-def get_travel_vlogs(city_name, api_key):
+def get_travel_vlogs(city_name, category, api_key):
+    """
+    Fetch travel vlogs based on city name and category.
+    
+    Args:
+        city_name (str): Name of the city.
+        category (str): Travel category (e.g., "solo", "couples", "family", "friends").
+        api_key (str): YouTube Data API key.
+        
+    Returns:
+        list: A list of dictionaries containing video details.
+    """
     # Base URL for YouTube API
     url = "https://www.googleapis.com/youtube/v3/search"
 
     # Parameters for the API request
     params = {
         "part": "snippet",
-        "q": f"{city_name} travel vlog",
+        "q": f"{category} {city_name} travel vlog",
         "type": "video",
         "maxResults": 3,
         "key": api_key
@@ -34,8 +45,10 @@ def get_travel_vlogs(city_name, api_key):
 
 # Example usage
 API_KEY = "AIzaSyD4shIi89YJuMkDEtS0FXVUX9cT0wbDe5U"
-city = "Honolulu"
-vlogs = get_travel_vlogs(city, API_KEY)
+city = "Honolulu"  # Example city
+category = "solo"  # Example category (solo, couples, family, friends)
+
+vlogs = get_travel_vlogs(city, category, API_KEY)
 for vlog in vlogs:
     print(f"Title: {vlog['title']}")
     print(f"Channel: {vlog['channel']}")
