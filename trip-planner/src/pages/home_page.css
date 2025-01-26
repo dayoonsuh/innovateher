@@ -10,7 +10,9 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--primary-color);
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148920283.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
   }

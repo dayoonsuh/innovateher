@@ -4,6 +4,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
+import { saveAs } from 'file-saver';
 
 function UserInput() {
     const [depDate, setDepDate] = useState(null);
@@ -18,13 +19,28 @@ function UserInput() {
     const handleDepDateChange = (date) => setDepDate(date);
     const handleArrDateChange = (date) => setArrDate(date);
     const handleStateChange = (value) => setState(value);
-    const handleCityChange = (value) => setCity(value);
+    const handleCityChange = (e) => setCity(e.target.value);
     const handleWithWhoChange = (option) => setWithWho(option);
     const handleTypeChange = (option) => setType(option);
     const handleDesStateChange = (value) => setDesState(value);
-    const handleDesCityChange = (value) => setDesCity(value);
+    const handleDesCityChange = (e) => setDesCity(e.target.value);
 
     function navigation() {
+        const content = depDate.getDate() + "_" + depDate.getMonth() + "_" + depDate.getFullYear() + "," + arrDate.text + ","
+                        + city + "," + state + "," + desState + "," + desCity
+                        + "," + withWho + "," + type
+
+        const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+        saveAs(blob, 'hello_world.txt');
+        
+        // const fs = require('fs');
+        // fs.writeFile('example.txt', content, err => {
+        //     if (err) {
+        //         console.err;
+        //         return;
+        //     }
+        // })
+
         window.location.href = '/trip_details';
     }
 
