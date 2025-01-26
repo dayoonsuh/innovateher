@@ -23,7 +23,7 @@ const HomePage = () => {
         </section>
 
         <section>
-          <button className="cta-button" onClick={handleNavigation}>Get More Specific Suggestions</button>
+          <button className="cta-button" onClick={handleNavigation}>Start Planning Your Trip!</button>
         </section>
       </main>
     </div>

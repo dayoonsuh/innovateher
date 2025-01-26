@@ -18,18 +18,38 @@ function UserInput() {
 
     const handleDepDateChange = (date) => setDepDate(date);
     const handleArrDateChange = (date) => setArrDate(date);
-    const handleStateChange = (value) => setState(value);
+    const handleStateChange = (option) => setState(option.value);
     const handleCityChange = (e) => setCity(e.target.value);
-    const handleWithWhoChange = (option) => setWithWho(option);
-    const handleTypeChange = (option) => setType(option);
-    const handleDesStateChange = (value) => setDesState(value);
+    const handleWithWhoChange = (option) => setWithWho(option.value);
+    const handleTypeChange = (option) => setType(option.value);
+    const handleDesStateChange = (option) => setDesState(option.value);
     const handleDesCityChange = (e) => setDesCity(e.target.value);
 
+
+    async function saveFile(content, filename) {
+        try {
+          const handle = await window.showSaveFilePicker({
+            suggestedName: filename,
+            types: [
+              {
+                description: 'Text file',
+                accept: { 'text/plain': ['.txt'] },
+              },
+            ],
+          });
+          const writable = await handle.createWritable();
+          await writable.write(content);
+          await writable.close();
+          console.log('File saved successfully');
+        } catch (err) {
+          console.error('Error saving file:', err);
+        }
+      }
+      
+
     function navigation() {
-        const content = depDate.getDate() + "_" + (depDate.getMonth() + 1) + "_" + depDate.getYear() + "," + 
-                        arrDate.getDate() + "_" + (arrDate.getMonth() + 1) + "_" + arrDate.getYear() + ","
-                        + city.text + "," + state.text + "," + desState.text + "," + desCity.text
-                        + "," + withWho.text + "," + type.text
+        const content = `${depDate.getDate()}_${depDate.getMonth() + 1}_${depDate.getFullYear()},${arrDate.getDate()}_${arrDate.getMonth() + 1}_${arrDate.getFullYear()},${city},${state},${desCity},${desState},${withWho},${type}`;
+        //saveFile(content, 'trip_details.txt');
 
         const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
         saveAs(blob, 'hello_world.txt');
@@ -131,7 +151,7 @@ function UserInput() {
 
             />
 
-            <p>What type of place would you like to go to?</p>
+            <p>What are you looking to get out of the place that you want to visit?</p>
             <Dropdown
                 options={[
                     { label: 'Nature', value: 'nature' },
