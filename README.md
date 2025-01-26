@@ -1,4 +1,4 @@
-# innovateher
+# HerAdventure
 
 ## Inspiration
 Over winter break, some of our teammates set out on vacations, while others stayed home, overwhelmed by the challenge of planning. One teammate shared how planning a trip to Hawaii took her six whole months, navigating countless websites and meticulously figuring out the best order to do everything. Others dreamed of traveling but felt stuck—not knowing where to go or how to begin planning. One teammate, inspired by the idea of solo travel for women, hesitated due to safety concerns and the lack of clear guidance.
