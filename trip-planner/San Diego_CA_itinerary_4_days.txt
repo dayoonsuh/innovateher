@@ -1,0 +1,53 @@
+Day 1  
+Morning:  
+- Start your day with breakfast at Great Maple, famous for its maple bacon doughnuts and modern twist on classic American dishes.  
+- After breakfast, take a stroll in Balboa Park, exploring the beautiful gardens and unique architecture. 
+
+Afternoon:  
+- For lunch, head to The Fish Market near the waterfront. Enjoy fresh seafood while overlooking the harbor.  
+- Post-lunch, visit the USS Midway Museum, where you can explore an aircraft carrier and learn about naval history.  
+
+Evening:  
+- Have dinner at Kettner Exchange in Little Italy. This rooftop restaurant serves elevated American cuisine with a touch of Mediterranean influence.  
+- After dinner, enjoy a gelato from Gelato Paradiso for a sweet treat while exploring the vibrant Little Italy streets.
+
+Day 2  
+Morning:  
+- Begin with a breakfast burrito at The Cottage in La Jolla, which is known for its cozy atmosphere and delicious breakfast options.  
+- After breakfast, visit La Jolla Cove to see the sea lions and take a scenic walk along the coastline.  
+
+Afternoon:  
+- For lunch, head to George’s at the Cove, where you can enjoy modern Californian dishes with stunning ocean views.  
+- Spend the afternoon beach-hopping; go to Windansea Beach and explore some of La Jolla’s charming tide pools.  
+
+Evening:  
+- Dinner at Juniper & Ivy, a celebrated contemporary American restaurant. Make sure to try one of their innovative tasting menus.  
+- Close the evening with cocktails at Polite Provisions, a bar known for its artisanal approach to classic cocktails.
+
+Day 3  
+Morning:  
+- Enjoy breakfast at Breakfast Republic, a local favorite for creative breakfast dishes like breakfast poutine and their infamous french toast.  
+- Pay a visit to Old Town San Diego State Historic Park, exploring California’s history and some unique shops.  
+
+Afternoon:  
+- Try out lunch at Café Coyote, where you can indulge in authentic Mexican cuisine and enjoy live mariachi music.  
+- Spend the afternoon wandering through Old Town, visiting the shops and possibly taking a short guided tour for a deeper experience.  
+
+Evening:  
+- Head over to Barley Mash for dinner, a lively spot with craft beers and hearty comfort food.  
+- After dinner, enjoy a night out in the Gaslamp Quarter, famous for its nightlife; consider visiting one of the rooftop bars for great views.
+
+Day 4  
+Morning:  
+- Start with a casual breakfast at The Mission, known for its Latin-inspired breakfast dishes and excellent coffee.  
+- After breakfast, take a trip to Coronado Island via the ferry to enjoy the views of the San Diego skyline.  
+
+Afternoon:  
+- Enjoy lunch at Peohe’s on Coronado, where you'll find fresh seafood and island-inspired dishes.  
+- Spend the afternoon relaxing at Coronado Beach, taking in the sun and beautiful surroundings.  
+
+Evening:  
+- For your final dinner, head to The Marine Room in La Jolla, famous for its stunning oceanfront dining and the waves crashing against the windows during high tide.  
+- Conclude your trip with a nightcap at The Lemon Grove, an intimate bar with a great selection of local craft beers.
+
+places = ['Great Maple', 'The Fish Market', 'USS Midway Museum', 'Kettner Exchange', 'Gelato Paradiso', 'The Cottage', 'George’s at the Cove', 'Windansea Beach', 'Juniper & Ivy', 'Polite Provisions', 'Breakfast Republic', 'Old Town San Diego State Historic Park', 'Café Coyote', 'Barley Mash', 'Gaslamp Quarter', 'The Mission', 'Coronado Island', 'Peohe’s', 'Coronado Beach', 'The Marine Room', 'The Lemon Grove']
