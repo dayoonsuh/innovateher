@@ -1,0 +1,21 @@
+Day 1  
+Morning: Start your food adventure with breakfast at Great Maple, known for its modern twist on classic dishes. Try their signature maple bacon doughnuts and truffle tater tots. After breakfast, stroll around Balboa Park to check out its beautiful gardens and museums.  
+Afternoon: Head to Liberty Station and have lunch at Stone Brewing World Bistro & Gardens, where you can pair your meal with local craft beers. After lunch, walk around the Liberty Public Market and sample various local vendors’ offerings. Explore the local art galleries and shops in the area.  
+Evening: Dine at Kettner Exchange in Little Italy, which features seasonal fare with rooftop views. It’s perfect for sharing small plates with friends. After dinner, take a leisurely walk around Little Italy, enjoying its vibrant nightlife and maybe grab a gelato for dessert at Gelato Paradiso.  
+
+Day 2  
+Morning: Have breakfast at The Cottage in La Jolla, where you can enjoy their famous lemon ricotta pancakes. Post breakfast, visit the La Jolla Cove to see the sea lions and enjoy the stunning ocean views.  
+Afternoon: For lunch, head to the Taco Stand for some of the best fish tacos in San Diego. After lunch, take a walk in the nearby Windansea Beach area for some quick sun and surf.  
+Evening: Experience a lively dinner at Juniper & Ivy in Little Italy, a Michelin-starred restaurant that emphasizes California cuisine with incredible flavor. After dinner, hop over to the Gaslamp Quarter to check out some rooftop bars for drinks and enjoy the nightlife.  
+
+Day 3  
+Morning: Start your day with breakfast at Breakfast Republic, famous for its hearty breakfast options and unique flavor combinations. Afterward, take a visit to the San Diego Zoo to explore the wildlife.  
+Afternoon: Grab lunch at The Crack Shack, a casual eatery focusing on fried chicken and egg dishes, just a short drive from the zoo. After lunch, spend some time at the nearby Seaport Village, where you can shop and walk along the waterfront.  
+Evening: For dinner, enjoy a sunset meal at Coasterra, which offers a beautiful view of the San Diego skyline and delicious Mexican cuisine. Follow dinner with a nightcap at the nearby Barleymash in the Gaslamp Quarter for some fun vibes.  
+
+Day 4  
+Morning: Enjoy breakfast at The Mission, known for its Latin-inspired dishes, especially their French toast. After breakfast, take a walk at Mission Beach.  
+Afternoon: For lunch, try the world-famous Phil's BBQ, a short drive away, known for its amazing smoked meats. Post-lunch, head to the nearby USS Midway Museum, where you can explore the historic aircraft carrier.  
+Evening: Conclude your food trip with a dinner at Born and Raised, a fine dining steakhouse in Mission Hills. After dinner, consider ending your trip with a night out in Hillcrest, which has a variety of bars and nightlife options.  
+
+places = ['Great Maple', 'Balboa Park', 'Stone Brewing World Bistro & Gardens', 'Liberty Public Market', 'Kettner Exchange', 'Gelato Paradiso', 'The Cottage', 'La Jolla Cove', 'Taco Stand', 'Windansea Beach', 'Juniper & Ivy', 'Gaslamp Quarter', 'Breakfast Republic', 'San Diego Zoo', 'The Crack Shack', 'Seaport Village', 'Coasterra', 'Barleymash', 'The Mission', 'Mission Beach', 'Phil\'s BBQ', 'USS Midway Museum', 'Born and Raised', 'Hillcrest']
