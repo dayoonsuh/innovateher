@@ -26,9 +26,10 @@ function UserInput() {
     const handleDesCityChange = (e) => setDesCity(e.target.value);
 
     function navigation() {
-        const content = depDate.getDate() + "_" + depDate.getMonth() + "_" + depDate.getFullYear() + "," + arrDate.text + ","
-                        + city + "," + state + "," + desState + "," + desCity
-                        + "," + withWho + "," + type
+        const content = depDate.getDate() + "_" + (depDate.getMonth() + 1) + "_" + depDate.getYear() + "," + 
+                        arrDate.getDate() + "_" + (arrDate.getMonth() + 1) + "_" + arrDate.getYear() + ","
+                        + city.text + "," + state.text + "," + desState.text + "," + desCity.text
+                        + "," + withWho.text + "," + type.text
 
         const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
         saveAs(blob, 'hello_world.txt');
