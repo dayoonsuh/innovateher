@@ -1,0 +1,24 @@
+:root {
+    --text-color: #000000; /* or any other color */
+    --primary-color: #ffffff; /* or any other color */
+}
+
+.user-input-page .title-of-user-input {
+    color: #000000; /* or any color that contrasts with your background */
+}  
+
+.user-input-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.title-of-user-input {
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 10px;
+}
+  

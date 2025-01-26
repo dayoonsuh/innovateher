@@ -2,9 +2,17 @@
 import React from 'react';
 //import './HomePage.css';
 
-import './home_page.css'
+import './home_page.css';
+import './user_input.jsx';
+//import { useNavigate } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const HomePage = () => {
+
+    function handleNavigation() {
+        window.location.href = '/user_input';
+    }
+
   return (
     <div className="home-page">
       <main className="main-content">
@@ -29,9 +37,7 @@ const HomePage = () => {
         </section>
 
         <section>
-            <a href='user_input.jsx'>
-                <button className="cta-button">Get More Specific Suggestions</button>
-            </a> 
+            <button className="cta-button" onClick={handleNavigation}> Get More Specific Suggestions</button>
         </section>
       </main>
     </div>
