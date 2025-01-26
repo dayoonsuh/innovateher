@@ -17,8 +17,8 @@ const HomePage = () => {
       <main className="main-content">
         <section className="hero">
           <div className="text-container">
-            <h1>Welcome to the Trip Planner</h1>
-            <p>Make the most out of your trip experience.</p>
+            <h1>Welcome to TravelMate</h1>
+            <p>Make the most out of your travel experience.</p>
           </div>
         </section>
 

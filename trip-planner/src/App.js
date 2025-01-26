@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 function App() {
 
   useEffect(() => {
-    document.title = "Trip Planner";
+    document.title = "TravelMate";
   }, []);
 
   return (
