@@ -44,7 +44,7 @@ def get_travel_vlogs(city_name, category, api_key):
         return []
 
 # Example usage
-API_KEY = "AIzaSyD4shIi89YJuMkDEtS0FXVUX9cT0wbDe5U"
+API_KEY = ""
 city = "Honolulu"  # Example city
 category = "solo"  # Example category (solo, couples, family, friends)
 

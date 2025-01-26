@@ -1,7 +1,7 @@
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Dictionary for city-to-IATA code mapping
 iata_codes = {
