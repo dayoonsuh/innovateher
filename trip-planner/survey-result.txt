@@ -1,0 +1,2 @@
+start_date,end_date,num_days,city,state,theme,with_who
+01_25_2025,01_28_2025,4,san_jose,ca,nature,friends
