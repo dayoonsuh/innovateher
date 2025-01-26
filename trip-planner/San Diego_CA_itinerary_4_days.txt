@@ -1,53 +1,29 @@
 Day 1  
-Morning:  
-- Start your day with breakfast at Great Maple, famous for its maple bacon doughnuts and modern twist on classic American dishes.  
-- After breakfast, take a stroll in Balboa Park, exploring the beautiful gardens and unique architecture. 
+Morning: Start your trip with breakfast at Great Maple, known for their modern twist on classic American food, especially their maple bacon doughnuts. After breakfast, take a short walk to Balboa Park, where you can explore the gardens and cultural institutions. 
 
-Afternoon:  
-- For lunch, head to The Fish Market near the waterfront. Enjoy fresh seafood while overlooking the harbor.  
-- Post-lunch, visit the USS Midway Museum, where you can explore an aircraft carrier and learn about naval history.  
+Afternoon: For lunch, head to The Crack Shack in Little Italy, a casual eatery specializing in gourmet fried chicken and egg dishes. After lunch, stroll around Little Italy, exploring the local shops and the vibrant atmosphere. Don't miss the Little Italy Food Hall for some artisan snacks.
 
-Evening:  
-- Have dinner at Kettner Exchange in Little Italy. This rooftop restaurant serves elevated American cuisine with a touch of Mediterranean influence.  
-- After dinner, enjoy a gelato from Gelato Paradiso for a sweet treat while exploring the vibrant Little Italy streets.
+Evening: Dinner reservations at Born and Raised, a luxe steakhouse in Little Italy, are a must. Indulge in expertly cooked steaks and classic cocktails. For a nightcap, visit the nearby Prohibition, a speakeasy-style bar featuring crafted cocktails in an upscale, vintage environment.
 
 Day 2  
-Morning:  
-- Begin with a breakfast burrito at The Cottage in La Jolla, which is known for its cozy atmosphere and delicious breakfast options.  
-- After breakfast, visit La Jolla Cove to see the sea lions and take a scenic walk along the coastline.  
+Morning: Enjoy breakfast at The Cottage in La Jolla, famous for its fluffy pancakes and hearty breakfast plates. Afterward, take a stroll along La Jolla Cove to see the sea lions and picturesque coastline. 
 
-Afternoon:  
-- For lunch, head to George’s at the Cove, where you can enjoy modern Californian dishes with stunning ocean views.  
-- Spend the afternoon beach-hopping; go to Windansea Beach and explore some of La Jolla’s charming tide pools.  
+Afternoon: Head over to George's at the Cove for lunch, which offers stunning ocean views and a fresh take on California cuisine. After eating, take a dip in the ocean or relax on the beach. Visit the nearby La Jolla Underwater Park for a quick snorkeling session if you're feeling adventurous.
 
-Evening:  
-- Dinner at Juniper & Ivy, a celebrated contemporary American restaurant. Make sure to try one of their innovative tasting menus.  
-- Close the evening with cocktails at Polite Provisions, a bar known for its artisanal approach to classic cocktails.
+Evening: For dinner, experience unforgettable Mexican cuisine at Las Cuatro Milpas. Enjoy their homemade tortillas and various traditional dishes. After dinner, stop by the nearby Vons supermarket to pick up some local snacks and beverages for a beach bonfire at Pacific Beach.
 
 Day 3  
-Morning:  
-- Enjoy breakfast at Breakfast Republic, a local favorite for creative breakfast dishes like breakfast poutine and their infamous french toast.  
-- Pay a visit to Old Town San Diego State Historic Park, exploring California’s history and some unique shops.  
+Morning: Have brunch at Breakfast Republic, known for its creative breakfast dishes and fun atmosphere. Afterward, explore the nearby Mission Beach and take a stroll on the boardwalk.
 
-Afternoon:  
-- Try out lunch at Café Coyote, where you can indulge in authentic Mexican cuisine and enjoy live mariachi music.  
-- Spend the afternoon wandering through Old Town, visiting the shops and possibly taking a short guided tour for a deeper experience.  
+Afternoon: For lunch, stop by Hodad’s, a beloved spot for their mouthwatering burgers and laid-back vibe in Ocean Beach. Post-lunch, visit Sunset Cliffs Natural Park for picturesque ocean views and easy hiking trails.
 
-Evening:  
-- Head over to Barley Mash for dinner, a lively spot with craft beers and hearty comfort food.  
-- After dinner, enjoy a night out in the Gaslamp Quarter, famous for its nightlife; consider visiting one of the rooftop bars for great views.
+Evening: Dinner at Point Loma Seafood, where you can enjoy freshly caught seafood in a casual setting with views of the marina. Afterward, take a short drive to the Cabrillo National Monument for stunning sunset views and a chance to see the Old Point Loma Lighthouse.
 
 Day 4  
-Morning:  
-- Start with a casual breakfast at The Mission, known for its Latin-inspired breakfast dishes and excellent coffee.  
-- After breakfast, take a trip to Coronado Island via the ferry to enjoy the views of the San Diego skyline.  
+Morning: Start your final day with breakfast at The University Town Center's cupcake shop, Cupcake Love, especially their breakfast cupcakes. After breakfast, visit the nearby Birch Aquarium to see sea life exhibits.
 
-Afternoon:  
-- Enjoy lunch at Peohe’s on Coronado, where you'll find fresh seafood and island-inspired dishes.  
-- Spend the afternoon relaxing at Coronado Beach, taking in the sun and beautiful surroundings.  
+Afternoon: Grab lunch at Puesto, known for their delicious tacos and vibrant atmosphere, located in the Mission Valley area. Afterward, you can explore the surrounding shopping areas at Fashion Valley Mall or take a quick walk by the San Diego River.
 
-Evening:  
-- For your final dinner, head to The Marine Room in La Jolla, famous for its stunning oceanfront dining and the waves crashing against the windows during high tide.  
-- Conclude your trip with a nightcap at The Lemon Grove, an intimate bar with a great selection of local craft beers.
+Evening: Wrap up your trip with a memorable dinner at Kettner Exchange, where you can enjoy innovative dishes from a rooftop patio with views of the skyline. For a final nightcap, stop by the rooftop bar at ALTITUDE Sky Lounge for breathtaking views of Petco Park and the city skyline.
 
-places = ['Great Maple', 'The Fish Market', 'USS Midway Museum', 'Kettner Exchange', 'Gelato Paradiso', 'The Cottage', 'George’s at the Cove', 'Windansea Beach', 'Juniper & Ivy', 'Polite Provisions', 'Breakfast Republic', 'Old Town San Diego State Historic Park', 'Café Coyote', 'Barley Mash', 'Gaslamp Quarter', 'The Mission', 'Coronado Island', 'Peohe’s', 'Coronado Beach', 'The Marine Room', 'The Lemon Grove']
+places = ['Great Maple', 'Balboa Park', 'The Crack Shack', 'Little Italy', 'Born and Raised', 'Prohibition', 'The Cottage', 'La Jolla Cove', 'George\'s at the Cove', 'Las Cuatro Milpas', 'Vons', 'Breakfast Republic', 'Mission Beach', 'Hodad’s', 'Sunset Cliffs Natural Park', 'Point Loma Seafood', 'Cabrillo National Monument', 'Cupcake Love', 'Birch Aquarium', 'Puesto', 'Fashion Valley Mall', 'Kettner Exchange', 'ALTITUDE Sky Lounge']
